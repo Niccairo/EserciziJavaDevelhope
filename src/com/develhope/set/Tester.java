@@ -22,7 +22,7 @@ public class Tester {
 		daysOfTheWeekOrdered.add("Lunedi");
 		daysOfTheWeekOrdered.add("Martedi");
 		daysOfTheWeekOrdered.add("Mercoledi");
-		daysOfTheWeekOrdered.add("Giovedì");
+		daysOfTheWeekOrdered.add("Giovedi");
 		daysOfTheWeekOrdered.add("Venerdi");
 		daysOfTheWeekOrdered.add("Sabato");
 		daysOfTheWeekOrdered.add("Domenica");
