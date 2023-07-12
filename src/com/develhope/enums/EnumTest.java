@@ -3,8 +3,6 @@ package com.develhope.enums;
 public class EnumTest {
 
 	public static void main(String[] args) {
-
-		Months myMonth = Months.JULY;
 		
 		for (Months month : Months.values()) {
 			
@@ -15,5 +13,7 @@ public class EnumTest {
 			}
 		}
 	}
+	
+	
 
 }
