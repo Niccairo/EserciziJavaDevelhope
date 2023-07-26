@@ -7,16 +7,15 @@ public class Animal {
 		this.animalName = animalName;
 	}
 	public void animalSound() {
-		System.out.println("Rooar");
+		animalSound(null);
 	}
 	public void animalSound(String intensity) {
-		if(intensity.equals("high")) {
+		if("high".equals(intensity)) {
 			System.out.println("Rooooooooar");
-		}else if(intensity.equals("low")) {
+		}else if("low".equals(intensity)) {
 			System.out.println("Roar");
 		}else {
-			System.out.println("Cannot reproduce it properly");
+			System.out.println("Rooar");
 		}
 	}
-	
 }
